@@ -1,17 +1,15 @@
-*{
-    border: 1px solid red;
-}
 
 body{
+    font-family: 'Roboto', arial;
+    padding: 0;
     margin: 0;
     background-color: #1F2937;
-    font-family: sans-serif;
     color: #F9FAF8;
 }
 
 .top{
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 11%;
+    margin-right: 11%;
 }
 
 header, .section{
@@ -21,6 +19,7 @@ header, .section{
 }
 
 .box-left{
+    align-items: left;
     width: 50%;
 }
 .box-right{
@@ -30,11 +29,110 @@ header, .section{
     align-items: center;
 }
 .header-link{
-    padding-left: 50px;
+    padding-left: 27px;
 }
 .middle{
     background-color: white;
 }
 #container{
     background-color: gray;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 24px;
+}
+.secondary, .header-link{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+.vertical-center{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.top-left{
+    margin: 2px;
+    padding: 2px;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 10%;
+    border: 0px;
+}
+#middle-subtitle{
+    text-align: center;
+    font: 36px extra-bold;
+    color: #1F2937;
+}
+#images-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-with-text{
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: #1F2937;
+}
+
+.bordered{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.quote-area{
+    background-color:#E5E7EB;
+    padding: 30px;
+    display:block;
+    color:#1F2937;
+}
+#quote{
+    margin: 20px 11% 10px 11%;
+    text-align: center;
+    font-style: italic;
+    font-size: 48px;
+}
+#author{
+    text-align: right;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 24px;
+}
+.bottom{
+    background-color: white;
+    padding: 50px 11% 50px 11%;
+}
+footer{
+    margin: auto;
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    color: white;
+}
+.footer-text{
+    width: 70%;
+    margin: 0 5% 0 10%;
+    padding: 20px 0 20px 0;
+}
+.footer-button{
+    margin: 0 5% 0 0;
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: auto;
+}
+.call-action{
+    color:white;
+    margin: 0 5px 0 5px;
 }
